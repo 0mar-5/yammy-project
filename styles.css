@@ -33,10 +33,19 @@ span{
 }
 /* end of side menu style */
 
+#loading{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    color: yellow;
+}
+
 /* main style */
 .card1{
     border-radius: 6px;
     overflow: hidden!important;
+    cursor: pointer;
+
 
 }
 
@@ -54,11 +63,31 @@ span{
   .card1:hover .overlay{
     transition: all .5s ease-in-out;
     top:0%;
-    cursor: pointer;
     opacity: 1;
 
 }
 
 /* end main style */
 
+/* Instructions style */
+.detail{
+    color: white;
+}
+.detail span {
+    display: contents;
+}
+.detail h3 {
+    display: block;
 
+}
+#btn {
+    position: relative;
+    left: 90%;
+    width: fit-content;
+}
+
+#searchContainer{
+    position: absolute;
+    top: 14%;
+    right: 10%;
+}
