@@ -87,7 +87,11 @@ span{
 }
 
 #searchContainer{
-    position: absolute;
-    top: 14%;
-    right: 10%;
+    position: absolute !important;
+    top: 14% !important;
+    right: 10% !important;
+}
+.searchArea{
+    position:absolute !important;
+    top: 35% !important;
 }
